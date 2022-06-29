@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 200px;
+    text-align: center;
+    background: whitesmoke;
+  }
+  header img {
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    align-self: center;
+  }
+
+  h1 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+   
+  }
+  p {
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+}
+.figures{
+    border: 5px solid #e1bee7;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 300px 300px;
+    justify-content: center;
+    grid-column-gap: 50px;
+    
+}
+.square-title, .circle-title, .triangle-title, .Isoceles-title {
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 5px 0 5px 0;
+  }
+
+form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    min-width: 320px;
+    height: 200px;
+    text-align: center;
+    background: rgb(137, 239, 65);
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.square-img, .circle-img, .triangle-img, .Isoceles-img{
+    width: 80px;
+    height: 80px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    align-self: center;
+}
+label{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+button{
+    font-size: 1.5rem;
+    border-radius: 20px;
+    color: #333;
+    font-weight: bold;
+    
+}
+
+.triangle-form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    min-width: 320px;
+    height: 250px;
+    text-align: center;
+    background: rgb(137, 239, 65);
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+input{
+  text-align: center;
+  font-size: 1.3rem;
+}
+@media screen and (max-width:768px){
+  .figures{
+    grid-template-columns: minmax(300px,500px);
+  }
+}
+  
